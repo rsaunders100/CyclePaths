@@ -31,6 +31,7 @@
 		EB9F741013B140F500CCD54F /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9F740913B140F500CCD54F /* SBJsonParser.m */; };
 		EB9F741113B140F500CCD54F /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9F740B13B140F500CCD54F /* SBJsonWriter.m */; };
 		EBA0B09D13CA1A5500F73676 /* WayOverlayCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA0B09C13CA1A5500F73676 /* WayOverlayCoordinator.m */; };
+		EBA2588814951EF100271F15 /* ExtractBike.sh in Resources */ = {isa = PBXBuildFile; fileRef = EBA2588714951EF100271F15 /* ExtractBike.sh */; };
 		EBA4D99C1467224F00B9F794 /* BarCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA4D99B1467224F00B9F794 /* BarCoordinator.m */; };
 		EBBEA8171393F872002C2C2F /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBEA8161393F872002C2C2F /* CoreDataHelper.m */; };
 		EBBEA81B1393F8C0002C2C2F /* OSMParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBEA81A1393F8C0002C2C2F /* OSMParser.m */; };
@@ -121,6 +122,7 @@
 		EB9F740B13B140F500CCD54F /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		EBA0B09B13CA1A5500F73676 /* WayOverlayCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WayOverlayCoordinator.h; sourceTree = "<group>"; };
 		EBA0B09C13CA1A5500F73676 /* WayOverlayCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WayOverlayCoordinator.m; sourceTree = "<group>"; };
+		EBA2588714951EF100271F15 /* ExtractBike.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ExtractBike.sh; sourceTree = "<group>"; };
 		EBA4D99A1467224F00B9F794 /* BarCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarCoordinator.h; sourceTree = "<group>"; };
 		EBA4D99B1467224F00B9F794 /* BarCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarCoordinator.m; sourceTree = "<group>"; };
 		EBBEA8151393F872002C2C2F /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
@@ -373,6 +375,7 @@
 		EBBEA81F1393F97D002C2C2F /* OSM */ = {
 			isa = PBXGroup;
 			children = (
+				EBA2588714951EF100271F15 /* ExtractBike.sh */,
 				EB99F5111475A74F00A4AC20 /* LBCoreData.sqlite */,
 			);
 			name = OSM;
@@ -682,6 +685,7 @@
 				EBFD8F321494DE19004FD8F2 /* icon.png in Resources */,
 				EBFD8F331494DE19004FD8F2 /* icon@2x.png in Resources */,
 				EBFD8F391494DE84004FD8F2 /* cycleSuperHighway.png in Resources */,
+				EBA2588814951EF100271F15 /* ExtractBike.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
