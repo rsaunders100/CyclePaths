@@ -1,9 +1,13 @@
 Cycle paths
 ===========
 
-Displayes cycle paths overlayed on a MKMapView.  The data is from [OpenStreetMaps](http://www.openstreetmap.org/).
+![App screenshot](http://a4.mzstatic.com/us/r1000/110/Purple/d0/cf/33/mzl.pnbiqhlr.320x480-75.jpg)
 
-Updating 
+
+Displayes cycle paths overlayed on a MKMapView.  The data is from [OpenStreetMaps](http://www.openstreetmap.org/).  Availiable on the [app store](http://itunes.apple.com/gb/app/cycle-paths-for-british-isles/id448049851?mt=8)
+
+
+Updating Cycle data
 --------
 
 To update the cycle path data in the applicaiton 
